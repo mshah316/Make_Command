@@ -1,0 +1,8 @@
+util.h
+util.c
+stk.h
+stk.c
+main.c
+util.o : util.h util.c
+stk.o : stk.h stk.c
+app : main.c stk.o util.o
